@@ -13,7 +13,7 @@ export default function Navbar(): React.JSX.Element {
   const onPlan = pathname === "/my-plan";
 
   const active =
-    "bg-[#ffffff] text-[#a3e635] px-4 sm:px-5 py-1.5 rounded-full font-medium text-[12px] tracking-[0.08em] uppercase transition-all";
+    "bg-[#000000] text-[#a3e635] px-4 sm:px-5 py-1.5 rounded-full font-medium text-[12px] tracking-[0.08em] uppercase transition-all";
   const idle =
     "text-zinc-400 hover:text-white px-3 sm:px-4 py-1.5 text-[12px] tracking-[0.08em] uppercase font-medium transition-all";
 
