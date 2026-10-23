@@ -16,7 +16,7 @@ type StoreT = {
   addPlan: (w: Workout) => void;
   addSaved: (w: Workout) => void;
   remove: (kind: "plan" | "saved", w: Workout) => void;
-  markDone: (w: Workout) => void;
+  markDone: (w: Workout) => ;
 };
 const Ctx = createContext<StoreT | null>(null);
 export const useStore = () => useContext(Ctx) as StoreT;
